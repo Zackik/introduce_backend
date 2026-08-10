@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a tutorial backend for introduce",
+  "main": "backend/scr/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zackik/introduce_backend.git"
+  },
+  "keywords": [],
+  "author": "Thanh Bui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zackik/introduce_backend/issues"
+  },
+  "homepage": "https://github.com/Zackik/introduce_backend#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.1",
+    "nodemon": "^3.1.14"
+  }
+}
